@@ -1,0 +1,67 @@
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+  body {
+    user-select: none;
+    display: block;
+  }
+
+  .container {
+    background-color: lightgray;
+    padding: 0;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .drum-container {
+    position: relative;
+    width: 660px;
+    text-align: center;
+  }
+
+  .drum-container .pad-container {
+    width: 332px;
+    height: 272px;
+    display: inline-block;
+    margin: 60px 20px 0px 20px;
+  }
+
+  .drum-container .pad-container .drum-pad {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: large;
+    font-size: xx-large;
+    color: white;
+  }
+
+  .display-container {
+    width: 332px;
+    height: 272px;
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .display {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    font-size: xx-large;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
